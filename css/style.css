@@ -1,0 +1,86 @@
+/****** GENERAL STYLES ******/
+
+body {
+  background: url('../img/geometry.png') repeat;
+  font-family: 'Crete Round', serif;
+  font-size: 20px;
+  text-align: center;
+  color: #2a2a2a;
+}
+
+h1 {
+  margin: 25px 0 5px 0;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 4em;
+  line-height: 1.2em;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+/****** SKETCHPAD COMPONENTS (AESTHETIC) ******/
+
+#sketchpad {
+  display: block;
+  position: relative;
+  width: 500px; height: 500px;
+  margin: 25px auto;
+  border: 9px inset #990000;
+  border-radius: 30px;
+  background-color: #B20000;
+}
+
+#leftButton, #rightButton {
+  position: absolute;
+  width: 50px; height: 50px;
+  margin: 2px;
+  bottom: 0;
+  border: 3px dotted lightgrey;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#leftButton {
+  left: 0;
+}
+
+#rightButton {
+  right: 0;
+}
+
+#sketchpad p {
+  font-style: italic;
+  font-variant: small-caps;
+  color: goldenrod;
+  text-shadow: 1px 1px lightyellow;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+/****** SKETCHPAD COMPONENTS (FUNCTIONAL) ******/
+
+#container {
+  width: 400px; height: 400px;
+  margin: 40px auto 10px auto;
+  border: 5px outset #990000;
+  border-radius: 10px;
+  background-color: #C0C0C0;
+}
+
+.module, .moduleHover {
+  display: inline-block;
+  float: left;
+  transition-duration: 0.1s;
+}
+
+.module {
+  background-color: transparent;
+}
+
+.moduleHover {
+  background-color: #828282;
+}
