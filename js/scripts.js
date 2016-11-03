@@ -25,7 +25,6 @@ $(document).ready(function(){
   $("#clearGrid").on("click", function(){
     $('.moduleHover').addClass('module');
     $('.moduleHover').removeClass('moduleHover');
-    $('h1').effect( "shake", { direction: "up", times: 4, distance: 10}, 1000 );
   });
   
   createGrid(50);
